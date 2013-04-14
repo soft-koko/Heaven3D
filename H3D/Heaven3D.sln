@@ -18,21 +18,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03Light", "03Light\03Light.
 		{DB2FA736-5F93-4F29-B963-BF6E735F624E} = {DB2FA736-5F93-4F29-B963-BF6E735F624E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04ModelLoader", "04ModelLoader\04ModelLoader.vcproj", "{32CDA8BB-48F1-4AAF-8E4A-74377C80B198}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DB2FA736-5F93-4F29-B963-BF6E735F624E} = {DB2FA736-5F93-4F29-B963-BF6E735F624E}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05ObjModelRender", "05ObjModelRender\05ObjModelRender.vcproj", "{162EBDFC-913F-453D-A49C-2A02CBA869B2}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DB2FA736-5F93-4F29-B963-BF6E735F624E} = {DB2FA736-5F93-4F29-B963-BF6E735F624E}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06SimpleTerrain", "06SimpleTerrain\06SimpleTerrain.vcproj", "{E128B137-9D62-4C8E-BF09-98849D4D0C3C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DB2FA736-5F93-4F29-B963-BF6E735F624E} = {DB2FA736-5F93-4F29-B963-BF6E735F624E}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,18 +40,6 @@ Global
 		{8C2BAE52-BAC7-4348-914E-88271F9929A5}.Debug|Win32.Build.0 = Debug|Win32
 		{8C2BAE52-BAC7-4348-914E-88271F9929A5}.Release|Win32.ActiveCfg = Release|Win32
 		{8C2BAE52-BAC7-4348-914E-88271F9929A5}.Release|Win32.Build.0 = Release|Win32
-		{32CDA8BB-48F1-4AAF-8E4A-74377C80B198}.Debug|Win32.ActiveCfg = Debug|Win32
-		{32CDA8BB-48F1-4AAF-8E4A-74377C80B198}.Debug|Win32.Build.0 = Debug|Win32
-		{32CDA8BB-48F1-4AAF-8E4A-74377C80B198}.Release|Win32.ActiveCfg = Release|Win32
-		{32CDA8BB-48F1-4AAF-8E4A-74377C80B198}.Release|Win32.Build.0 = Release|Win32
-		{162EBDFC-913F-453D-A49C-2A02CBA869B2}.Debug|Win32.ActiveCfg = Debug|Win32
-		{162EBDFC-913F-453D-A49C-2A02CBA869B2}.Debug|Win32.Build.0 = Debug|Win32
-		{162EBDFC-913F-453D-A49C-2A02CBA869B2}.Release|Win32.ActiveCfg = Release|Win32
-		{162EBDFC-913F-453D-A49C-2A02CBA869B2}.Release|Win32.Build.0 = Release|Win32
-		{E128B137-9D62-4C8E-BF09-98849D4D0C3C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E128B137-9D62-4C8E-BF09-98849D4D0C3C}.Debug|Win32.Build.0 = Debug|Win32
-		{E128B137-9D62-4C8E-BF09-98849D4D0C3C}.Release|Win32.ActiveCfg = Release|Win32
-		{E128B137-9D62-4C8E-BF09-98849D4D0C3C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
